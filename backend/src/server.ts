@@ -6,7 +6,12 @@ import healthRoutes from './routes/health';
 // Load environment variables
 dotenv.config();
 
-const app = express();
+console.log('environment variables:');
+console.log(process.env.OPENAI_API_KEY);
+console.log(process.env.MONGODB_URI);
+console.log(process.env.PORT);
+
+const app: express.Application = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors());

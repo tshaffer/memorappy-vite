@@ -4,7 +4,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug TypeScript Server",
+      "name": "Debug memorappy backend",
       "skipFiles": [
         "<node_internals>/**"
       ],
